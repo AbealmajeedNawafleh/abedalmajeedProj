@@ -83,7 +83,7 @@ if __name__ == "__main__":
         print(dataframe1, f, f1, f2)
     elif dataframe2 is not None:
         print("\nDataframe preview:")
-        g = data_prep.handle_missing_values(datafram2)
+        g = data_prep.handle_missing_values(dataframe2)
         g1 = data_prep.encode_categorical(g)
         g2 = data_prep.data_summary(g1)
         print(dataframe2, g, g1, g2)
